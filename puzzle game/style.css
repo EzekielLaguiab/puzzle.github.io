@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+#puzzleContainer {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+
+.puzzlePiece {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-size: 400px 400px;
+    transition: transform 0.2s;
+}
+
+.puzzlePiece:hover {
+    transform: scale(1.1);
+}
+
+.hidden {
+    display: none;
+}

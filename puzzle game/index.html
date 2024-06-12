@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3; /* light gray */
+            color: #333; /* dark gray */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #4CAF50; /* green */
+        }
+
+        button {
+            background-color: #4CAF50; /* green */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049; /* darker green on hover */
+        }
+
+        #puzzleContainer {
+            background-color: #fff; /* white */
+            border: 1px solid #ccc; /* light gray border */
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Complete the puzzle</h1>
+    <div>Are you ready?</div>
+    <button id="startButton">Start</button>
+    
+    <div id="puzzleContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
